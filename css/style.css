@@ -1,0 +1,79 @@
+body {
+  font-family: Arial;
+  background-color: #61122f;
+  height: 1000px;
+  margin: 0;
+}
+.brand-name a {
+  margin-left: 0;
+  font-weight: bold;
+  text-align: left;
+}
+.brand-name .navbar-brand,
+#main-content h2 {
+  color: #fff;
+}
+#main-content .chicken {
+  height: 500px;
+  margin: 0;
+  height: 700px;
+}
+
+
+#nav-list {
+  background-color: #61122f;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+}
+
+
+#nav-list a {
+  margin-top: 10px;
+
+}
+#nav-list a:hover{
+  color: orange;
+}
+#nav-list a span {
+  font-size: 12px;
+  display: block;
+  margin: 5px 5px 5px 5px;
+}
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.container-fluid .header-nav {
+  font-weight: bold;
+}
+
+.chicken {
+  background-color: gray;
+  color: #fff;
+  margin-top: 50px;
+  line-height: 17px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+.chicken span {
+  display: block;
+  font-weight: bold;
+  font-size: 1.6em;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  
+}
+
+@media (max-width: 767px){
+  #main-content .chicken {
+    height: 1200px;
+  }
+}
